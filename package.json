@@ -1,0 +1,35 @@
+{
+  "name": "js-hw-09",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "start": "parcel",
+    "build": "parcel build src/index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yukkaf1/goit-js-hw-09"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yukkaf1/goit-js-hw-09/issues"
+  },
+  "homepage": "https://yukkaf1.github.io/goit-js-hw-09/",
+  "dependencies": {
+    "@vimeo/player": "^2.18.0",
+    "flatpickr": "^4.6.13",
+    "gh-pages": "^4.0.0",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.11.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  }
+}
